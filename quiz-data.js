@@ -104,7 +104,10 @@ const jobCircularDatabase = [
             { "name": "মেস ওয়েটার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "নিরাপত্তা প্রহরী", "count": 1, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "মালী/গার্ডেনার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
-            { "name": "পরিচ্ছন্নতা কর্মী/ঝাড়ুদার", "count": 4, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" }
+            { "name": "পরিচ্ছন্নতা কর্মী/ঝাড়ুদার", "count": 4, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "নিরাপত্তা প্রহরী", "count": 1, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সহকারী বাবুর্চি", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "মেস ওয়েটার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
         ]
     }
 ];
