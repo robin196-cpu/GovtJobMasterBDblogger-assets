@@ -68,27 +68,43 @@ const megaQuizDatabase = [
 // 💼 সরকারি চাকরির সার্কুলার ডেটাবেজ
 const jobCircularDatabase = [
     {
-        "postKey": "mod-2026", // এই নাম দিয়ে আমরা ব্লগারে ডেটা কল করব
+        "postKey": "mod-2026",
         "orgName": "প্রতিরক্ষা মন্ত্রণালয় (Ministry of Defence - MOD)",
         "publishDate": "21-06-2026 (10:00 AM)",
         "categoryCount": "২৪ টি ক্যাটাগরিতে",
         "totalPosts": "১১১ টি",
         "jobType": "Permanent",
-        "qualification": "পদ অনুযায়ী জেএসসি / এসএসসি / এইচএসসি / स्नातक বা সমমান পাস",
+        "qualification": "পদ অনুযায়ী জেএসসি / এসএসসি / এইচএসসি / স্নাতক বা সমমান পাস",
         "applyMethod": "অনলাইন (Online)",
         "applyLink": "https://dcd.teletalk.com.bd/",
-        "deadline": "15-07-2026 (5:00 PM)"
-    },
-    {
-        "postKey": "bpsc-2026", // আরেকটি উদাহরণ (ভবিষ্যতের জন্য)
-        "orgName": "বাংলাদেশ সরকারি কর্ম কমিশন (BPSC)",
-        "publishDate": "01-07-2026 (09:00 AM)",
-        "categoryCount": "০৫ টি ক্যাটাগরিতে",
-        "totalPosts": "৪৫০ টি",
-        "jobType": "Permanent",
-        "qualification": "স্নাতক বা সমমান পাস",
-        "applyMethod": "অনলাইন (Online)",
-        "applyLink": "http://bpsc.teletalk.com.bd/",
-        "deadline": "30-07-2026 (6:00 PM)"
+        "deadline": "15-07-2026 (5:00 PM)",
+        
+        // 🎯 পদের বিস্তারিত তালিকা (এখানে আপনি যত ইচ্ছা অবজেক্ট বাড়াতে বা কমাতে পারবেন)
+        "vacancyDetails": [
+            { "name": "সহকারী তত্ত্বাবধায়ক", "count": 1, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সাঁটাক্ষরিক-কাম-কম্পিউটার অপারেটর", "count": 1, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "কম্পিউটার অপারেটর", "count": 4, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "উচ্চমান সহকারী", "count": 12, "grade": "গ্রেড-১৪", "scale": "১০২২০-২৪৬৮০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সাঁটমুদ্রাক্ষরিক-কাম-কম্পিউটার অপারেটর", "count": 5, "grade": "গ্রেড-১৪", "scale": "১০২২ো-২৪৬৮০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "নকশাকার গ্রেড-৩", "count": 3, "grade": "গ্রেড-১৫", "scale": "৯৭০০-২৩৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "ড্রাইভার", "count": 2, "grade": "গ্রেড-১৫", "scale": "৯৭০০-২৩৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "office সহকারী-কাম-কম্পিউটার মুদ্রাক্ষরিক", "count": 33, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "স্টোরম্যান", "count": 1, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "কম্পিউটার হার্ডওয়্যার টেকনিশিয়ান", "count": 1, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "এমসি-২ (কম্পোзиটর)", "count": 3, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "এমসি-২ (রিডার)", "count": 1, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "কাউন্টার ক্লার্ক", "count": 1, "grade": "গ্রেড-১৬", "scale": "৯৩০০-২২৪৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "ট্রেসার", "count": 2, "grade": "গ্রেড-১৭", "scale": "৯০০০-২১৮০০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "বुक বাইন্ডার/টিএম (বাইন্ডার)", "count": 3, "grade": "গ্রেড-১৮", "scale": "৮৮০০-২১৩১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "ডেসপ্যাচ রাইডার", "count": 1, "grade": "গ্রেড-১৮", "scale": "৮৮০০-২১৩১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "ফটোকপি অপারেটর", "count": 1, "grade": "গ্রেড-১৮", "scale": "৮৮০০-২১৩১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "অফিস সহায়ক", "count": 23, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "বাবুর্চি", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সহকারী বাবুর্চি", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "মেস ওয়েটার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "নিরাপত্তা প্রহরী", "count": 1, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "মালী/গার্ডেনার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "পরিচ্ছন্নতা কর্মী/ঝাড়ুদার", "count": 4, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" }
+        ]
     }
 ];
