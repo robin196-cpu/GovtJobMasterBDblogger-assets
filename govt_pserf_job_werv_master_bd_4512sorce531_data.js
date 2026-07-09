@@ -81,7 +81,7 @@ const jobCircularDatabase = [
         
         // 🎯 পদের বিস্তারিত তালিকা (এখানে আপনি যত ইচ্ছা অবজেক্ট বাড়াতে বা কমাতে পারবেন)
         "vacancyDetails": [
-            { "name": "সহকারী তত্ত্বাবধায়ক", "count": 1, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সহকারী তত্ত্বাবধায়ক test", "count": 1, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "সাঁটাক্ষরিক-কাম-কম্পিউটার অপারেটর", "count": 1, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "কম্পিউটার অপারেটর", "count": 4, "grade": "গ্রেড-১৩", "scale": "১১০০০-২৬৫৯০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "উচ্চমান সহকারী", "count": 12, "grade": "গ্রেড-১৪", "scale": "১০২২০-২৪৬৮০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
@@ -106,7 +106,7 @@ const jobCircularDatabase = [
             { "name": "মালী/গার্ডেনার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "পরিচ্ছন্নতা কর্মী/ঝাড়ুদার", "count": 4, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "নিরাপত্তা প্রহরী", "count": 1, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
-            { "name": "সহকারী বাবুর্চি", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
+            { "name": "সহকারী বাবুর্চি test", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
             { "name": "মেস ওয়েটার", "count": 2, "grade": "গ্রেড-২০", "scale": "৮২৫০-২০০১০/-", "link": "https://dcd.teletalk.com.bd/dcd_2026/posts.php" },
         ]
     }
